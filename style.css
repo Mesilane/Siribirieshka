@@ -1,0 +1,22 @@
+#field {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 25vh 35vh;
+}
+
+body {
+    background-color: black;
+}
+
+td {
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 50px;
+}
