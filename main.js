@@ -5,14 +5,11 @@ function start(cells) {
     for (let cell of cells) {
         cell.addEventListener('click', function step() {
             this.textContent = ['X', 'O'][i % 2];
-            this.removeEventListener('click', step());
-
-
+            this.removeEventListener('click', step);
             i++;
         })
         break;
     }
-
 }
 
 start(cells);
